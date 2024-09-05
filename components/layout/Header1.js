@@ -12,7 +12,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu }) {
                 <div className="container flex justify-between items-center relative px-4">
                     <h1>
                         <Link  href="/">
-                            <img src="/TTechpolymers.png" alt="logo" className="flex-shrink-0 relative w-40 dark:hidden" />
+                            <img src="/assets/Ttechpolymers.png" alt="logo" className="flex-shrink-0 relative w-40 dark:hidden" />
                         </Link>
                     </h1>
                     <Menu />

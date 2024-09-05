@@ -16,11 +16,11 @@ const inter = Inter({
     subsets: ['latin'],
     // variable: "--nunito-font-family",
     display: 'swap',
-})
+})  
 
 export const metadata = {
-    title: 'IDEKO - Personal Blog TailwindCSS Next.js Template',
-    description: 'IDEKO - Personal Blog TailwindCSS Next.js Template',
+    title: 'TTechpolymers',
+    description: '',
 }
 
 export default function RootLayout({ children }) {
