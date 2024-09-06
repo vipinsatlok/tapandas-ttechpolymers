@@ -38,152 +38,73 @@ export default function Hero() {
         <>
             <section className="relative py-20 lg:py-24 lg:mb-16">
                 <div className="container px-4">
-                    <h1 className="heading-1">Welcome to Ttechpolymers</h1>
+                    <h1 className="heading-1 flex flex-col">
+                        <span className="text-7xl">Welcome to</span>
+                        <span className="font-bold ">TTechpolymers</span>
+                    </h1>
                     <div className="swiper-container post-slider-4">
                         <Swiper {...swiperOptions} className="swiper-wrapper pt-4">
-                            <SwiperSlide className="swiper-slide hover-up">
-                                <div className="w-full h-52 relative rounded-3xl overflow-hidden">
-                                    <Link href="/category"><img className="left-0 top-0 absolute rounded-3xl" alt="" src="/assets/imgs/pages/img-01.png" /></Link>
-                                    <div className="px-[13px] py-[9px] left-[10px] top-[150px] absolute bg-neutral-0 dark:bg-neutral-dark-0 rounded-[26px] justify-center items-center gap-2.5 inline-flex">
-                                        <Link href="/category" className="text-neutral-950 dark:text-neutral-dark-950 text-sm font-medium">Healthy</Link>
-                                        <div className="w-[22px] h-[22px] relative">
-                                            <div className="w-7 h-7 left-[-3px] top-[-3px] absolute bg-primary-light-950 rounded-full">
-                                            </div>
-                                            <div className="left-[3px] top-[5px] absolute text-center text-neutral-950 text-xs font-medium  leading-3">
-                                                17</div>
-                                        </div>
-                                    </div>
+
+
+                            <SwiperSlide className="swiper-slide hover-up w-full">
+                                <div className="relative w-full rounded-3xl overflow-hidden">
+                                    <Link className="block " href="#">
+                                        <img className="w-full min-h-52 object-cover rounded-3xl" alt="" src="/assets/polymers/01.jpg" />
+                                    </Link>
                                 </div>
                             </SwiperSlide>
-                            <SwiperSlide className="swiper-slide hover-up">
-                                <div className="w-full h-52 relative rounded-3xl overflow-hidden">
-                                    <Link href="/category"><img className="left-0 top-0 absolute rounded-3xl" alt="" src="/assets/imgs/pages/img-02.png" /></Link>
-                                    <div className="px-[13px] py-[9px] left-[10px] top-[150px] absolute bg-neutral-0 dark:bg-neutral-dark-0 rounded-[26px] justify-center items-center gap-2.5 inline-flex">
-                                        <Link href="/category" className="text-neutral-950 dark:text-neutral-dark-950 text-sm font-medium">Trending</Link>
-                                        <div className="w-[22px] h-[22px] relative">
-                                            <div className="w-7 h-7 left-[-3px] top-[-3px] absolute bg-primary-light-950 rounded-full">
-                                            </div>
-                                            <div className="left-[3px] top-[5px] absolute text-center text-neutral-950 text-xs font-medium  leading-3">
-                                                32</div>
-                                        </div>
-                                    </div>
+
+                            <SwiperSlide className="swiper-slide hover-up w-full">
+                                <div className="relative w-full rounded-3xl overflow-hidden">
+                                    <Link className="block " href="#">
+                                        <img className="w-full min-h-52 object-cover rounded-3xl" alt="" src="/assets/polymers/02.jpg" />
+                                    </Link>
                                 </div>
                             </SwiperSlide>
-                            <SwiperSlide className="swiper-slide hover-up">
-                                <div className="w-full h-52 relative rounded-3xl overflow-hidden">
-                                    <Link href="/category"><img className="left-0 top-0 absolute rounded-3xl" alt="" src="/assets/imgs/pages/img-03.png" /></Link>
-                                    <div className="px-[13px] py-[9px] left-[10px] top-[150px] absolute bg-neutral-0 dark:bg-neutral-dark-0 rounded-[26px] justify-center items-center gap-2.5 inline-flex">
-                                        <Link href="/category" className="text-neutral-950 dark:text-neutral-dark-950 text-sm font-medium">Fashion</Link>
-                                        <div className="w-[22px] h-[22px] relative">
-                                            <div className="w-7 h-7 left-[-3px] top-[-3px] absolute bg-primary-light-950 rounded-full">
-                                            </div>
-                                            <div className="left-[3px] top-[5px] absolute text-center text-neutral-950 text-xs font-medium  leading-3">
-                                                48</div>
-                                        </div>
-                                    </div>
+
+                            <SwiperSlide className="swiper-slide hover-up w-full">
+                                <div className="relative w-full rounded-3xl overflow-hidden">
+                                    <Link className="block " href="#">
+                                        <img className="w-full min-h-52 object-cover rounded-3xl" alt="" src="/assets/polymers/03.jpg" />
+                                    </Link>
                                 </div>
                             </SwiperSlide>
-                            <SwiperSlide className="swiper-slide hover-up">
-                                <div className="w-full h-52 relative rounded-3xl overflow-hidden">
-                                    <Link href="/category"><img className="left-0 top-0 absolute rounded-3xl" alt="" src="/assets/imgs/pages/img-04.png" /></Link>
-                                    <div className="px-[13px] py-[9px] left-[10px] top-[150px] absolute bg-neutral-0 dark:bg-neutral-dark-0 rounded-[26px] justify-center items-center gap-2.5 inline-flex">
-                                        <Link href="/category" className="text-neutral-950 dark:text-neutral-dark-950 text-sm font-medium">Technology</Link>
-                                        <div className="w-[22px] h-[22px] relative">
-                                            <div className="w-7 h-7 left-[-3px] top-[-3px] absolute bg-primary-light-950 rounded-full">
-                                            </div>
-                                            <div className="left-[3px] top-[5px] absolute text-center text-neutral-950 text-xs font-medium  leading-3">
-                                                15</div>
-                                        </div>
-                                    </div>
+
+                            <SwiperSlide className="swiper-slide hover-up w-full">
+                                <div className="relative w-full rounded-3xl overflow-hidden">
+                                    <Link className="block " href="#">
+                                        <img className="w-full min-h-52 object-cover rounded-3xl" alt="" src="/assets/polymers/04.webp" />
+                                    </Link>
                                 </div>
                             </SwiperSlide>
-                            <SwiperSlide className="swiper-slide hover-up">
-                                <div className="w-full h-52 relative rounded-3xl overflow-hidden">
-                                    <Link href="/category"><img className="left-0 top-0 absolute rounded-3xl" alt="" src="/assets/imgs/pages/img-05.png" /></Link>
-                                    <div className="px-[13px] py-[9px] left-[10px] top-[150px] absolute bg-neutral-0 dark:bg-neutral-dark-0 rounded-[26px] justify-center items-center gap-2.5 inline-flex">
-                                        <Link href="/category" className="text-neutral-950 dark:text-neutral-dark-950 text-sm font-medium">Travel</Link>
-                                        <div className="w-[22px] h-[22px] relative">
-                                            <div className="w-7 h-7 left-[-3px] top-[-3px] absolute bg-primary-light-950 rounded-full">
-                                            </div>
-                                            <div className="left-[3px] top-[5px] absolute text-center text-neutral-950 text-xs font-medium  leading-3">
-                                                24</div>
-                                        </div>
-                                    </div>
+                            <SwiperSlide className="swiper-slide hover-up w-full">
+                                <div className="relative w-full rounded-3xl overflow-hidden">
+                                    <Link className="block " href="#">
+                                        <img className="w-full min-h-52 object-cover rounded-3xl" alt="" src="/assets/polymers/05.webp" />
+                                    </Link>
                                 </div>
                             </SwiperSlide>
-                            <SwiperSlide className="swiper-slide hover-up">
-                                <div className="w-full h-52 relative rounded-3xl overflow-hidden">
-                                    <Link href="/category"><img className="left-0 top-0 absolute rounded-3xl" alt="" src="/assets/imgs/pages/img-01.png" /></Link>
-                                    <div className="px-[13px] py-[9px] left-[10px] top-[150px] absolute bg-neutral-0 dark:bg-neutral-dark-0 rounded-[26px] justify-center items-center gap-2.5 inline-flex">
-                                        <Link href="/category" className="text-neutral-950 dark:text-neutral-dark-950 text-sm font-medium">Healthy</Link>
-                                        <div className="w-[22px] h-[22px] relative">
-                                            <div className="w-7 h-7 left-[-3px] top-[-3px] absolute bg-primary-light-950 rounded-full">
-                                            </div>
-                                            <div className="left-[3px] top-[5px] absolute text-center text-neutral-950 text-xs font-medium  leading-3">
-                                                17</div>
-                                        </div>
-                                    </div>
+                            <SwiperSlide className="swiper-slide hover-up w-full">
+                                <div className="relative w-full rounded-3xl overflow-hidden">
+                                    <Link className="block " href="#">
+                                        <img className="w-full min-h-52 object-cover rounded-3xl" alt="" src="/assets/polymers/06.webp" />
+                                    </Link>
                                 </div>
                             </SwiperSlide>
-                            <SwiperSlide className="swiper-slide hover-up">
-                                <div className="w-full h-52 relative rounded-3xl overflow-hidden">
-                                    <Link href="/category"><img className="left-0 top-0 absolute rounded-3xl" alt="" src="/assets/imgs/pages/img-02.png" /></Link>
-                                    <div className="px-[13px] py-[9px] left-[10px] top-[150px] absolute bg-neutral-0 dark:bg-neutral-dark-0 rounded-[26px] justify-center items-center gap-2.5 inline-flex">
-                                        <Link href="/category" className="text-neutral-950 dark:text-neutral-dark-950 text-sm font-medium">Trending</Link>
-                                        <div className="w-[22px] h-[22px] relative">
-                                            <div className="w-7 h-7 left-[-3px] top-[-3px] absolute bg-primary-light-950 rounded-full">
-                                            </div>
-                                            <div className="left-[3px] top-[5px] absolute text-center text-neutral-950 text-xs font-medium  leading-3">
-                                                32</div>
-                                        </div>
-                                    </div>
+
+                            <SwiperSlide className="swiper-slide hover-up w-full">
+                                <div className="relative w-full rounded-3xl overflow-hidden">
+                                    <Link className="block " href="#">
+                                        <img className="w-full min-h-52 object-cover rounded-3xl" alt="" src="/assets/polymers/08.jpg" />
+                                    </Link>
                                 </div>
                             </SwiperSlide>
-                            <SwiperSlide className="swiper-slide hover-up">
-                                <div className="w-full h-52 relative rounded-3xl overflow-hidden">
-                                    <Link href="/category"><img className="left-0 top-0 absolute rounded-3xl" alt="" src="/assets/imgs/pages/img-03.png" /></Link>
-                                    <div className="px-[13px] py-[9px] left-[10px] top-[150px] absolute bg-neutral-0 dark:bg-neutral-dark-0 rounded-[26px] justify-center items-center gap-2.5 inline-flex">
-                                        <Link href="/category" className="text-neutral-950 dark:text-neutral-dark-950 text-sm font-medium">Fashion</Link>
-                                        <div className="w-[22px] h-[22px] relative">
-                                            <div className="w-7 h-7 left-[-3px] top-[-3px] absolute bg-primary-light-950 rounded-full">
-                                            </div>
-                                            <div className="left-[3px] top-[5px] absolute text-center text-neutral-950 text-xs font-medium  leading-3">
-                                                48</div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </SwiperSlide>
-                            <SwiperSlide className="swiper-slide hover-up">
-                                <div className="w-full h-52 relative rounded-3xl overflow-hidden">
-                                    <Link href="/category"><img className="left-0 top-0 absolute rounded-3xl" alt="" src="/assets/imgs/pages/img-04.png" /></Link>
-                                    <div className="px-[13px] py-[9px] left-[10px] top-[150px] absolute bg-neutral-0 dark:bg-neutral-dark-0 rounded-[26px] justify-center items-center gap-2.5 inline-flex">
-                                        <Link href="/category" className="text-neutral-950 dark:text-neutral-dark-950 text-sm font-medium">Technology</Link>
-                                        <div className="w-[22px] h-[22px] relative">
-                                            <div className="w-7 h-7 left-[-3px] top-[-3px] absolute bg-primary-light-950 rounded-full">
-                                            </div>
-                                            <div className="left-[3px] top-[5px] absolute text-center text-neutral-950 text-xs font-medium  leading-3">
-                                                15</div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </SwiperSlide>
-                            <SwiperSlide className="swiper-slide hover-up">
-                                <div className="w-full h-52 relative rounded-3xl overflow-hidden">
-                                    <Link href="/category"><img className="left-0 top-0 absolute rounded-3xl" alt="" src="/assets/imgs/pages/img-05.png" /></Link>
-                                    <div className="px-[13px] py-[9px] left-[10px] top-[150px] absolute bg-neutral-0 dark:bg-neutral-dark-0 rounded-[26px] justify-center items-center gap-2.5 inline-flex">
-                                        <Link href="/category" className="text-neutral-950 dark:text-neutral-dark-950 text-sm font-medium">Travel</Link>
-                                        <div className="w-[22px] h-[22px] relative">
-                                            <div className="w-7 h-7 left-[-3px] top-[-3px] absolute bg-primary-light-950 rounded-full">
-                                            </div>
-                                            <div className="left-[3px] top-[5px] absolute text-center text-neutral-950 text-xs font-medium  leading-3">
-                                                24</div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </SwiperSlide>
+
+
+
                         </Swiper>
                     </div>
-                    <div className="flex justify-between items-center gap-8 lg:gap-32 mt-12 flex-col lg:flex-row">
+                    {/* <div className="flex justify-between items-center gap-8 lg:gap-32 mt-12 flex-col lg:flex-row">
                         <p className="text-neutral-950 dark:text-neutral-dark-950 text-base font-medium lg:w-2/4">Goods and
                             services. It involves entrepreneurship, management, marketing, finance, and many other aspects.
                             Businesses aim to generate profit while meeting</p>
@@ -200,7 +121,7 @@ export default function Hero() {
                             </div>
                             <p className="text-neutral-700 text-sm pl-4">* Unsubscribe anytime</p>
                         </form>
-                    </div>
+                    </div> */}
                 </div> {/*.container*/}
                 <div className="header-bg absolute bottom-0 left-0 right-0 -z-50 w-full h-full bg-gradient-to-t from-primary-light-950/15 to-transparent">
                 </div>
@@ -209,3 +130,6 @@ export default function Hero() {
         </>
     )
 }
+
+
+

@@ -12,14 +12,14 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu }) {
                 <div className="container flex justify-between items-center relative px-4">
                     <h1>
                         <Link  href="/">
-                            <img src="/assets/Ttechpolymers.png" alt="logo" className="flex-shrink-0 relative w-40 dark:hidden" />
+                            <img src="/assets/Ttechpolymers.png" alt="logo" className="flex-shrink-0 relative w-20" />
                         </Link>
                     </h1>
                     <Menu />
                     <div className="flex justify-end align-middle content-center items-center relative gap-4">
-                        <div className="language-switcher py-4 relative z-10">
+                        {/* <div className="language-switcher py-4 relative z-10">
                             <Language />
-                        </div>
+                        </div> */}
                         <ThemeSwitch />
                         <Search />
                         <div className="py-4 hover-up xl:flex hidden relative z-20">

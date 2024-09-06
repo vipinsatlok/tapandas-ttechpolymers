@@ -28,7 +28,7 @@ export default function Search() {
                                 </button>
                             </div>
                         </form>
-                        <div className="flex-col justify-start items-start gap-3 inline-flex mt-8">
+                        {/* <div className="flex-col justify-start items-start gap-3 inline-flex mt-8">
                             <div className="text-neutral-950 dark:text-neutral-dark-950 text-base font-bold">Suggested
                             </div>
                             <div className="flex flex-wrap gap-4">
@@ -39,7 +39,7 @@ export default function Search() {
                                 <Link href="/#" className="font-regular text-base text-neutral-700 link-hover hover:text-neutral-950 dark:text-neutral-0 dark:hover:text-neutral-dark-600">Books</Link>
                                 <Link href="/#" className="font-regular text-base text-neutral-700 link-hover hover:text-neutral-950 dark:text-neutral-0 dark:hover:text-neutral-dark-600">Travel</Link>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </Menu.Items>
             </Menu>

@@ -1,5 +1,5 @@
 
-export default function Footer2() {
+export default function     Footer2() {
     return (
         <>
             <footer className="w-full py-20 bg-neutral-200 dark:bg-neutral-dark-200 ">
@@ -68,7 +68,7 @@ export default function Footer2() {
                                 </div>
                             </div>
                         </div>
-                        <div className="grid grid-cols- lg:grid-cols-3 md:grid-cols-3">
+                        {/* <div className="grid grid-cols- lg:grid-cols-3 md:grid-cols-3">
                             <div className="mb-4">
                                 <h6 className="text-base font-bold text-neutral-700 dark:text-neutral-dark-700 mb-2">Category</h6>
                                 <ul>
@@ -123,7 +123,7 @@ export default function Footer2() {
                                     </li>
                                 </ul>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </footer>
