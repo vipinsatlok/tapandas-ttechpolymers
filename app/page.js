@@ -9,10 +9,11 @@ export default async function Home() {
         <>
             <Layout footerStyle={1} noHeaderBg>
                 <Hero />
-                <Section1 />
+                {/* <Section1 />
                 <Section2 />
                 <Section3 />
-                <Section4 />
+                <Section4 /> */}
+                <Section3 />
             </Layout>
         </>
     )

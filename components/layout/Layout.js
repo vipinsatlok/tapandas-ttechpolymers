@@ -27,7 +27,7 @@ export default function Layout({ headerStyle, footerStyle, breadcrumbTitle, chil
             if (scrollCheck !== scroll) {
                 setScroll(scrollCheck)
             } else {
-                setScroll(false)
+                setScroll(false)    
             }
         })
     }, [])

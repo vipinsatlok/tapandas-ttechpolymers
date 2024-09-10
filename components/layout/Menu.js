@@ -34,17 +34,17 @@ export default function Menu() {
                 <li className="relative group">
                     <Link className="menu-item" href="/#">Pages</Link>
                     <ul className="z-100 absolute px-6 py-4 rounded-md left-4 bg-neutral-0 dark:bg-neutral-dark-0 min-w-48 shadow-sm mt-8 opacity-0 invisible group-hover:opacity-100 group-hover:visible group-hover:mt-4 transition-all duration-500">
-                        <li><Link href="/page-about" className="menu-sub-item">Home Page</Link></li>
-                        <li><Link href="/page-author" className="menu-sub-item">Product Page</Link></li>
-                        <li><Link href="/page-search" className="menu-sub-item">Careers Page</Link></li>
-                        <li><Link href="/page-about" className="menu-sub-item">About Page</Link></li>
-                        <li><Link href="/page-contact" className="menu-sub-item">Contact</Link></li>
+                        <li><Link href="/" className="menu-sub-item">Home Page</Link></li>
+                        <li><Link href="/product" className="menu-sub-item">Product Page</Link></li>
+                        <li><Link href="/careers" className="menu-sub-item">Careers Page</Link></li>
+                        <li><Link href="/about" className="menu-sub-item">About Page</Link></li>
+                        <li><Link href="/contacts" className="menu-sub-item">Contact</Link></li>
                     </ul>
                 </li>
-                <li className="relative"><Link href="/page-contact" className="menu-item">Products</Link></li>
-                <li className="relative"><Link href="/page-contact" className="menu-item">Careers</Link></li>
-                <li className="relative"><Link href="/page-contact" className="menu-item">About Us</Link></li>
-                <li className="relative"><Link href="/page-contact" className="menu-item">Contact</Link></li>
+                <li className="relative"><Link href="/product" className="menu-item">Products</Link></li>
+                <li className="relative"><Link href="/careers" className="menu-item">Careers</Link></li>
+                <li className="relative"><Link href="/about" className="menu-item">About Us</Link></li>
+                <li className="relative"><Link href="/contacts" className="menu-item">Contact</Link></li>
             </ul>
         </>
     )
