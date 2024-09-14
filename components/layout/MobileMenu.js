@@ -9,8 +9,7 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }) {
                         <div className="flex flex-col h-full">
                             <h1 className="pt-2 pb-6">
                                 <Link href="/">
-                                    <img src="/assets/imgs/template/logo.svg" alt="logo" className="flex-shrink-0 relative dark:hidden" />
-                                    <img src="/assets/imgs/template/logo-white.svg" alt="logo" className="flex-shrink-0 relative hidden dark:inline-block" />
+                                <img src="/assets/Ttechpolymers.png" alt="logo" className="flex-shrink-0 relative w-32" />
                                 </Link>
                             </h1>
                             <ul className="py-6 mb-6 border-y border-neutral-300 dark:border-neutral-dark-300">
@@ -23,7 +22,7 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }) {
                                     </ul>
                                 </li>
                                 <li className="has-children">
-                                    <Link className="menu-mobile-item" href="/#">Blog</Link>
+                                    <Link className="menu-mobile-item" href="/product">Products</Link>
                                     <ul className="sub-menu">
                                         <li><Link href="/category" className="menu-mobile-sub-item">Category 01</Link></li>
                                         <li><Link href="/category-2" className="menu-mobile-sub-item">Category 02</Link></li>
@@ -34,7 +33,7 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }) {
                                     </ul>
                                 </li>
                                 <li className="has-children">
-                                    <Link className="menu-mobile-item" href="/#">Pages</Link>
+                                    <Link className="menu-mobile-item" href="/careers">Careers</Link>
                                     <ul className="sub-menu">
                                         <li><Link href="/page-about" className="menu-mobile-sub-item">About me</Link></li>
                                         <li><Link href="/page-author" className="menu-mobile-sub-item">Author</Link></li>
@@ -48,10 +47,10 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }) {
                                         <li><Link href="/page-404" className="menu-mobile-sub-item">Error 404</Link></li>
                                     </ul>
                                 </li>
-                                <li><Link className="menu-mobile-item" href="/page-about">About</Link></li>
-                                <li><Link className="menu-mobile-item" href="/page-contact">Contact</Link></li>
+                                <li><Link className="menu-mobile-item" href="/about">About</Link></li>
+                                <li><Link className="menu-mobile-item" href="/contacts">Contact</Link></li>
                             </ul>
-                            <div className="flex flex-wrap flex-col mt-4">
+                            {/* <div className="flex flex-wrap flex-col mt-4">
                                 <h4 className="text-lg text-neutral-950 dark:text-neutral-dark-950 font-bold mb-4">Stay
                                     Connectted</h4>
                                 <p className="text-sm text-neutral-700 font-medium mb-4 leading-5">Imagine waking up to a
@@ -59,10 +58,10 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }) {
                                     what you get when you subscribe!</p>
                                 <Link href="/page-login" className="w-full p-4 text-neutral-950 bg-primary-light-950 rounded-md font-bold text-sm">Subscribe
                                     Now</Link>
-                            </div>
+                            </div> */}
                         </div>
                     </nav>
-                    <a className="navbar-close absolute top-5 p-4 right-3" onClick={handleMobileMenu}>
+                    {/* <a className="navbar-close absolute top-5 p-4 right-3" onClick={handleMobileMenu}>
                         <svg xmlns="http://www.w3.org/2000/svg" width={20} height={20} viewBox="0 0 20 20" fill="none" className="fill-neutral-950 dark:fill-neutral-dark-950">
                             <g clipPath="url(#clip0_85_6880)">
                                 <path d="M1.42193 15.7358C1.05417 15.7571 0.692494 15.6349 0.413167 15.3948C-0.137722 14.8406 -0.137722 13.9456 0.413167 13.3914L12.4758 1.32871C13.0488 0.792556 13.9479 0.82236 14.484 1.39533C14.9689 1.91347 14.9971 2.70986 14.5502 3.26103L2.41647 15.3948C2.14074 15.6314 1.78487 15.7534 1.42193 15.7358Z" />
@@ -74,7 +73,7 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }) {
                                 </clipPath>
                             </defs>
                         </svg>
-                    </a>
+                    </a> */}
                 </div>
             </div>
         </>
